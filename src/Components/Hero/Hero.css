@@ -1,0 +1,69 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(255,227,227);
+    background: linear-gradient(90deg, rgba(255,227,227,1) 23%, rgba(207,255,255,1) 100%);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: grid;
+    padding: 9rem;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: 0 auto;
+}
+.hero-text{
+    max-width: 800px;
+    color: #220bcd;
+}
+.btn2{
+    background: #220bcd;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+  }
+
+  .hero2{
+    height: 400px;
+    width: 400px;
+  }
+
+  .hero-text-one{
+    font-size: 20px;
+    color: #fff;
+  }
+  .hero-text-two{
+    font-size: 60px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hero {
+      grid-template-columns: 1fr; /* Change to a single column layout on smaller screens */
+      padding: 5rem; /* Adjust padding as needed */
+    }
+  
+    .hero-text {
+      max-width: 100%; /* Allow text to take full width on smaller screens */
+    }
+  
+    .hero2 {
+      height: auto; /* Let the image height adjust automatically */
+      width: 80%; /* Adjust width as needed */
+      margin: 0 auto; /* Center the image */
+    }
+  
+    .hero-text-one {
+      font-size: 16px; /* Adjust font size as needed */
+    }
+  
+    .hero-text-two {
+      font-size: 40px; /* Adjust font size as needed */
+    }
+  }
+  
+  /* Add more media queries as needed for finer adjustments */
+  
